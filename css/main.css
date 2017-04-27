@@ -44,7 +44,7 @@ img {
 .hexagon {
     width:100px;
     height:55px;
-    background:#3acab1;
+    background:#3acab2;
     position:relative;
     /*transition*/
     -webkit-transition:all 0.3s;
@@ -62,7 +62,7 @@ img {
     height:0;
     border-left:50px solid transparent;
     border-right:50px solid transparent;
-    border-bottom:25px solid #3acab1;
+    border-bottom:25px solid #34c8b2;
     /*transition*/
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
@@ -79,7 +79,7 @@ img {
     height:0;
     border-left:50px solid transparent;
     border-right:50px solid transparent;
-    border-top:25px solid #3acab1;
+    border-top:25px solid #34c8b2;
     /*transition*/
     -webkit-transition:all 0.3s;
     -moz-transition:all 0.3s;
