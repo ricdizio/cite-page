@@ -1,0 +1,1 @@
+Andres: Organizacion de carpetas de imagenes, imagenes mostradas en el carrusel y creacion html: Galeria.html Junta_directiva.html Nosotros.html Proyectos.html
