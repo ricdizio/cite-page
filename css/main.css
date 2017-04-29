@@ -21,12 +21,21 @@ a {
     color:#34c8b2;
 }
 
+.title-about{
+    font-size:5em;
+    color: black
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
 a:hover {
     color:#ec343c;
     text-decoration: none;
 }
 .btn-o {
-    border:1px solid #34c8b2;
+    border:2px solid #34c8b2;
     /*border-radius*/
     -webkit-border-radius:0px;
     -moz-border-radius:0px;
@@ -37,6 +46,22 @@ a:hover {
 .btn-o:hover {
     color:white;
     background:#34c8b2;
+}
+
+.btn-about {
+    margin-top: 20px;
+    border:2px solid hsl(217, 89%, 61%);
+    /*border-radius*/
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    color: white;
+    mar
+}
+
+.btn-about:hover {
+    color: white;
+    background: hsl(217, 89%, 61%);
 }
 
 img {
@@ -100,6 +125,12 @@ img {
 
 .hexagon:hover:after {
     border-top-color: #ec343c;
+}
+
+.p-about{
+    color:black;
+    font-size:150%;
+    margin:10px;
 }
 
 
@@ -273,7 +304,7 @@ blog
 Social
 ========================================================================== */
 #social {
-    padding:110px 0;
+    padding:80px 0;
 }
 
 #social .hexagon {
