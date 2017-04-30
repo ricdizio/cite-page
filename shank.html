@@ -20,6 +20,7 @@
         <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/galeria-main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -88,7 +89,7 @@
                 <div class="section">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1>SHANK</h1>
+                            <h1 style="color:black;">SHANK</h1>
                             <p align="center">Este proyecto se desarrollo para la categoria de Laberinto de la competencia USBBOTS 2016. Este micromouse es capaz de resolver un laberinto de cualquier dimension con el algoritmo flood-fill. </p>
                             <div class="embed-responsive embed-responsive-16by9">    
                               <iframe width="526" height="315" src="https://www.youtube.com/embed/QTKuE5_LO6A"></iframe>
@@ -98,15 +99,59 @@
                 </div>
                 <div class="section"> <!--Esta seccion puede ir con otro background -->
                     <div class="row">
-                    <h2> Hardware </h2>
-                    <p> LISTA DE COMPONENTES </p>
+                    <h2 style="color:black;"> Hardware </h2>
+                    <p style="color:black;"> LISTA DE COMPONENTES </p>
                     <P> UN CAROUSEL DE LA EVOLUCION DE SHANK </p>
-                    <h2> Software </h2>
+
+                    <div id="diapo">
+                        <!--img01-->
+                        <div>
+                            <input type="radio" id="check_1" name="check" class="r_check" checked="checked">
+                            <label for="check_1" class="on_check">
+                                <img class="vignette" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_001.jpg" alt="">
+                            </label>
+                            <img class="big_image" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_001.jpg" alt=""></div>
+                    <!--img02-->
+                       
+                       <div>
+                          <input type="radio" id="check_2" name="check" class="r_check">
+                          <label for="check_2" class="on_check">
+                            <img class="vignette" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_002.jpg" alt="">
+                          </label>
+                          <img class="big_image" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_002.jpg" alt=""></div>
+                     <!--img03-->       
+                       <div>
+                          <input type="radio" id="check_3" name="check" class="r_check">
+                          <label for="check_3" class="on_check">
+                            <img class="vignette" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_003.jpg" alt="">
+                          </label>
+                          <img class="big_image" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_003.jpg" alt="">
+                        </div>
+                     <!---img04-->      
+                            <div>
+                          <input type="radio" id="check_4" name="check" class="r_check">
+                          <label for="check_4" class="on_check">
+                            <img class="vignette" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_004.jpg" alt="">
+                          </label>
+                          <img class="big_image" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_004.jpg" alt="">
+                        </div>
+                    <!----------------img05-->        
+                            <div>
+                          <input type="radio" id="check_5" name="check" class="r_check">
+                          <label for="check_5" class="on_check">
+                            <img class="vignette" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_005.jpg" alt="">
+                          </label>
+                          <img class="big_image" src="http://nosmoking.developpez.com/tutoriels/css/galerie-css3-sans-javascript/fichiers/images/image_005.jpg" alt="">
+                        </div>
+                      </div>
+
+                    <!-- Softwware -->
+                    <h2 style="color:black;"> Software </h2>
                     <p> codigo desarrollado en un cuadro con el link a github donde cargaremos el codigo</p>
                     </div>
                 </div>
                 <div class="section">
-                    <h2> Desarrollado por:</h2>
+                    <h2 style="color:black;"> Desarrollado por:</h2>
                     <p> Victor Garcia<br>Andres Suarez<br>Ricardo Di Zio<br>David Altuve<br>Walter Morales<br>Leonardo Cabrera<p>
                 </div>
             </div> 
@@ -119,7 +164,7 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <!-- Include js plugin -->
         <script src="owl-carousel/owl.carousel.js"></script>
-             
+        <script src="js/galeria.js"></script>
         <footer class="content-block content-block-dark">
             <p>&copy; Copyright CITE USB 2017.</p>
         </footer>     
