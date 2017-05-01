@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6,.navbar {
 
 body {
     background: rgba(236, 240, 241, 1);
+    margin: 0;
     padding-top: 70px;
     padding-right: 0px;
     padding-left: 0px;

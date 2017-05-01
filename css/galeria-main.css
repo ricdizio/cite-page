@@ -1,3 +1,4 @@
+
 .mostrarImg{
     margin: 50px;
 }
@@ -5,6 +6,7 @@
 .imgCuadro{ 
     margin: 0 auto;
     border: 2px solid #333;
+    background: #333;
 }
 
 .mostrarImg .item{
