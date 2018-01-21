@@ -1,0 +1,24 @@
+/*image ratio styles */
+.container16by9{
+    position: absolute;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin:auto;
+}
+.image16by9{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.space-top{
+    padding-top: 2.5%;
+}
+
+.no-padding-content-block{
+    padding:0;
+    width:100%;
+}
