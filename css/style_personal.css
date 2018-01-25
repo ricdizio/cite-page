@@ -12,3 +12,8 @@
     max-width: 250px; !important
     max-height: 250px; !important
 }
+
+.btn-personal{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
