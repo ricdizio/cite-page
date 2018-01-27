@@ -211,10 +211,9 @@ content-block
 }
 
 .content-block-black {
-    background:#34c8b2;
+    background:#151515;
     color:#ECF0F1;
 }
-
 
 .content-block-cyan h1 {
     font-weight:100;
@@ -299,7 +298,8 @@ blog
 }
 
 .content-block-gray {
-    background:#ECF0F1;
+    background:#2E2E2E;
+    color:#FFFFFF;
 }
 
 .block-heading {
